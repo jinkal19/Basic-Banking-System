@@ -113,7 +113,7 @@ if(isset($_POST['submit']))
 ?>
 
 	<div class="container">
-        <h2 class="text-center pt-4">Transaction</h2>
+        <h2 class="text-center pt-4" style="color:#0038e0;">Transaction</h2>
             <?php
                 include 'config.php';
                 $sid=$_GET['id'];
